@@ -14,6 +14,12 @@
 	align-items: center;
 	justify-content: center;
 }
+.slogan{
+	margin-top: 10px;
+	
+	color: black;
+
+}
 .to-do{
 	max-width: 400px;
 	width: 100%;
@@ -23,6 +29,7 @@
 	padding: 20px;
 }
 .task-div{
+	color: white;
 	margin-top: 20px;
 	display: flex;
 	align-items: center;

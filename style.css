@@ -1,94 +1,34 @@
 *{
-	margin: 0px;
-	padding: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
 	box-sizing: border-box;
 }
 .container{
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	height: 100vh;
-	width: 100%;
-	background-color: lightgrey;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	margin-left: 550px;
+	margin-top: 130px;
+	background-color: grey;
+	height: 450px;
+	width: 400px;
+	padding: 20px;
+	border-radius: 10px;
 }
-.slogan{
-	margin-top: 10px;
-	
-	color: black;
 
+.heading{
+	background-color: white;
+	width: 100%;
+	border-radius: 15px;
+
+}
+.head{
+	display: inline-block;
 }
 .to-do{
-	max-width: 400px;
-	width: 100%;
-	height: auto;
-	background-color: white;
-	border-radius: 30px;
-	padding: 20px;
+	
 }
-.task-div{
-	color: white;
+.task{
 	margin-top: 20px;
-	display: flex;
-	align-items: center;
-	background-color: whitesmoke;
-	height: 30px;
-	position: relative;
-	border-radius: 20px;
-	padding-left: 20px;
-	margin-bottom: 10px;
-}
-button{
-	position: absolute;
-	right: 0px;
-	border: none;
-	outline: none;
-	height: 30px;
-	border-radius: 20px;
-	width: 70px;
-	background-color: orange;
-	color: white;
-	font-weight: bolder;
-	cursor: pointer;
-
 }
 input{
-	flex: 1;
-	border: none;
-	outline: none;
-	background: transparent;
-}
-
-ul li{
-	padding: 8px 25px 10px;
-	position: relative;
-
-}
-ul li::before{
-	content: "";
-	background-image: url(img/bullet.png);
-	background-size: contain;
-	height: 13px;
-	width: 13px;
-	position: absolute;
-	top: 12px;
-	left: 0;
-}
-
-ul li.checked{
-	color: grey;
-	text-decoration: line-through;
-}
-
-ul li.checked::before{
-	background-image: url(img/tick.png);
-}
-
-span{
-	position: absolute;
-	right: 0px;
-	font-size: 10px;
-	top: 10px;
+	height: 30px;
+	width: 80%
 }
